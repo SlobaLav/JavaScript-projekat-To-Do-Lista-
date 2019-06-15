@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Todo App</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="1.css">  
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">Dodaj stavku</label><input id="new-task" type="text"><button>Dodaj</button>
+      </p>
+      
+      <h3>To Do lista</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Uraditi projekat</label><input type="text"><button class="edit">Izmeni</button><button class="delete">Obrisati</button></li>
+        <li class="checkbox"><input type="checkbox"><label>Kupiti voce</label><input type="text" value="Kupiti voce"><button class="edit">Izmeni</button><button class="delete">Obrisati</button></li>
+        
+      </ul>
+      
+      <h3>Zavrsene</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Platiti racune</label><input type="text"><button class="edit">Izmeni</button><button class="delete">Obrisati</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html>

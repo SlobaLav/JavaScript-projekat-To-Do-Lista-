@@ -1,0 +1,1 @@
+Link do Netlify platforme je: 
